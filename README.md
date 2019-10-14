@@ -13,9 +13,9 @@ This demo supplements the "Sustainable Systems, Powered By Python" talk presente
 
 The complete demo consists of the following repositories:
 
-* Photon Development ([nytimes/photon-dev_demo](https://github.com/nytimes/photon-dev_demo))
-* Photon Application ([nytimes/photon-demo-util](https://github.com/nytimes/photon-demo-util))
-* Photon Common ([nytimes/photon-common-demo](https://github.com/nytimes/photon-common-demo))
+* Photon Development ([Coder-Sharon/photon-dev_demo](https://github.com/Coder-Sharon/photon-dev_demo))
+* Photon Application ([Coder-Sharon/photon-demo-util](https://github.com/Coder-Sharon/photon-demo-util))
+* Photon Common ([Coder-Sharon/photon-common-demo](https://github.com/Coder-Sharon/photon-common-demo))
 
 ## Getting Started
 
@@ -38,7 +38,7 @@ brew install imagemagick
 1. Clone this repository (this will be the parent directory):
 
 ```
-git clone https://github.com/nytimes/photon-dev_demo.git
+git clone https://github.com/Coder-Sharon/photon-dev_demo.git
 ```
 
 2. Copy `bin/photon` into `/usr/local/bin`:
@@ -51,8 +51,8 @@ cp bin/photon /usr/local/bin
 3. Clone Photon family projects into this project (as subdirectories):
 
 ```
-git clone https://github.com/nytimes/photon-demo-util.git
-git clone https://github.com/nytimes/photon-common-demo.git
+git clone https://github.com/Coder-Sharon/photon-demo-util.git
+git clone https://github.com/Coder-Sharon/photon-common-demo.git
 ```
 
 4. Within any part of the "**MONTY**" structure, activate the development environment:
@@ -100,7 +100,7 @@ You can also do this at the subproject level, but the resulting html will only i
 
 ### Photon Application
 
-Photon Application (`photon-demo-util`) is a simple implementation of a Photon application structure - thread-based and invokable via a command-line utility. Each application's `setup.py` defines a [console script](https://github.com/nytimes/photon-demo-util/blob/master/setup.py#L28) entrypoint that invokes the **click** CLI for running and interacting with the application:
+Photon Application (`photon-demo-util`) is a simple implementation of a Photon application structure - thread-based and invokable via a command-line utility. Each application's `setup.py` defines a [console script](https://github.com/Coder-Sharon/photon-demo-util/blob/master/setup.py#L28) entrypoint that invokes the **click** CLI for running and interacting with the application:
 
 ```
 demo_util --help
@@ -122,4 +122,4 @@ Photon common libraries can be packaged and distributed individually - Photon ap
 
 ## Questions, Comments, or Feedback
 
-If you have any questions, comments, or feedback, feel free to reach out by adding an issue [here](https://github.com/nytimes/photon-dev_demo/issues)!
+If you have any questions, comments, or feedback, feel free to reach out by adding an issue [here](https://github.com/Coder-Sharon/photon-dev_demo/issues)!
