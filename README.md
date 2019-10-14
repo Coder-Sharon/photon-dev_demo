@@ -2,7 +2,7 @@
 
 Hello! 👋
 
-This demo supplements the "Sustainable Systems, Powered By Python" talk presented by Michael Laing and Sharon Tartarone at All Things Open 2019 and illustrates key concepts, including:
+This demo supplements the "[Sustainable Systems, Powered By Python](https://drive.google.com/file/d/14nhAlZmp9V9-BfMeT7hQxHvgwyooH75n/view)" (pdf version) talk presented by Michael Laing and Sharon Tartarone at All Things Open 2019 and illustrates key concepts, including:
 
 * the "MONTY" repository structure
 * installation and configurable runs ([setuptools](https://setuptools.readthedocs.io) and [click](https://click.palletsprojects.com))
